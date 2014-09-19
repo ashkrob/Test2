@@ -14,20 +14,20 @@
 	of each mean and standard deviation variable that can be used for further analysis.
 		1. X_test.txt
 		2. X_train.txt
-	3. y_test.txt
-	4. y_train.txt
-	5. subject_test.txt
-	6. subject_train.txt
-	7. features.txt
-	8. activity_labels.txt
+		3. y_test.txt
+		4. y_train.txt
+		5. subject_test.txt
+		6. subject_train.txt
+		7. features.txt
+		8. activity_labels.txt
 
-	Inertial Signals data, both test and train data, is the accelerometer and gyroscope 3-axial raw signals data
+	**** Inertial Signals data, both test and train data, is the accelerometer and gyroscope 3-axial raw signals data
 	and is out of scope for this project since only mean and standard deviation measurements for each measurement
 	are being of interest.
 
 	There is also an output file - a tidy dataset with the average of each mean and standard deviation variable
 	for each activity and each subject that can be used for further analysis.
-	9. tidydataset.txt
+		9. tidydataset.txt
 		
 ##   SOURCE DATA		
 	1. X_test.txt - A 561-feature vector with time and frequency domain variables. It is a test set which contains 30%
@@ -74,9 +74,9 @@ for each activity and each subject, and the resulting tidy data set was written 
 File content								
 ------------
 	1. subject		: Contains identifier of the subject who carried out the experiment.
-					Value - within [1,30].
+					  Value - within [1,30].
 	2. activity		: Lists the activity performed by each subject during the experiment using its descriptive name.
-					Value - (LAYING, STANDING, SITTING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS)
+					  Value - (LAYING, STANDING, SITTING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS)
  
 	-----	Time based variables denoted by "t"
 	----- 	Values - within [-1,1]
