@@ -1,5 +1,5 @@
-###  OVERVIEW  ###
-A group of 30 volunteers participated in the experiments where each person performed six activities
+##   OVERVIEW
+	A group of 30 volunteers participated in the experiments where each person performed six activities
 	(WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone on the waist. 
 	3-axial linear acceleration and 3-axial angular velocity were captured by using phone's embedded accelerometer
 	and gyroscope. 
@@ -10,10 +10,10 @@ A group of 30 volunteers participated in the experiments where each person perfo
 	into body acceleration and gravity components. For each instance, a vector of features was obtained by calculating
 	variables from the time and frequency domain.
 
-There are eight text files that comprise the source data collection being used to create a tidy dataset with the average
+	There are eight text files that comprise the source data collection being used to create a tidy dataset with the average
 	of each mean and standard deviation variable that can be used for further analysis.
-	1. X_test.txt
-	2. X_train.txt
+		1. X_test.txt
+		2. X_train.txt
 	3. y_test.txt
 	4. y_train.txt
 	5. subject_test.txt
@@ -21,15 +21,15 @@ There are eight text files that comprise the source data collection being used t
 	7. features.txt
 	8. activity_labels.txt
 
-Inertial Signals data, both test and train data, is the accelerometer and gyroscope 3-axial raw signals data
+	Inertial Signals data, both test and train data, is the accelerometer and gyroscope 3-axial raw signals data
 	and is out of scope for this project since only mean and standard deviation measurements for each measurement
 	are being of interest.
 
-There is also an output file - a tidy dataset with the average of each mean and standard deviation variable
+	There is also an output file - a tidy dataset with the average of each mean and standard deviation variable
 	for each activity and each subject that can be used for further analysis.
 	9. tidydataset.txt
 		
-###  SOURCE DATA  ###		
+##   SOURCE DATA		
 	1. X_test.txt - A 561-feature vector with time and frequency domain variables. It is a test set which contains 30%
 		of all instances measured in the experiment. Each feature vector is a row on the text file.
 
@@ -64,7 +64,7 @@ by extracting only measurements on the mean and standard deviation for each meas
 activity names were edited to use descriptive names. Finally, the data was summarized with the average of each variable
 for each activity and each subject, and the resulting tidy data set was written into a file "tidydataset.txt"
 		
-###  OUTPUT FILE  ###
+##   OUTPUT FILE
 	9. tidydataset.txt - Contains 68 Variables to provide data on the average of each variable for each activity
 		and each subject.
 	
@@ -74,9 +74,9 @@ for each activity and each subject, and the resulting tidy data set was written 
 File content								
 ------------
 	1. subject		: Contains identifier of the subject who carried out the experiment.
-				 Value - within [1,30].
+					Value - within [1,30].
 	2. activity		: Lists the activity performed by each subject during the experiment using its descriptive name.
-				 Value - (LAYING, STANDING, SITTING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS)
+					Value - (LAYING, STANDING, SITTING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS)
  
 	-----	Time based variables denoted by "t"
 	----- 	Values - within [-1,1]
@@ -123,7 +123,7 @@ File content
 	42. tBodyGyroJerkMagstd : standard deviation of the Magnitude of Jerk signal obtained by deriving body angular velocity in time 
  
 	-----	Frequency based variables denoted by "f"
-		Obtained by application of Fast Fourier Transform (FFT) to some of the signals
+			Obtained by application of Fast Fourier Transform (FFT) to some of the signals
 	-----	Values - within [-1,1]
   
 	43. fBodyAccmeanX       : mean value of Body Acceleration signal along X axis (EFT)
